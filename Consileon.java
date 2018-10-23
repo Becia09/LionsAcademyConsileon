@@ -1,5 +1,5 @@
 public class Consileon {
-
+	//https://codingbat.com/prob/p124620
     public int wordsCount(String[] words, int len) {
 
         int howManyWords = 0;
@@ -22,7 +22,7 @@ public class Consileon {
 
         return howManyWords;
     }
-
+	//https://codingbat.com/prob/p183837
     public String[] wordsFront(String[] words, int n) {
         String [] stringN = new String[n];
         for (int i = 0; i < n; i++)
@@ -32,7 +32,7 @@ public class Consileon {
 
         return stringN;
     }
-
+	//https://codingbat.com/prob/p120633
     public int greenTicket(int a, int b, int c) {
 
         if (a == b)
